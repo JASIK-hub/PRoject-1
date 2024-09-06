@@ -1,0 +1,116 @@
+body{font-family:sans-serif;
+ padding:70px;
+ background:rgb(50, 49, 36);
+ color:rgb(201, 181, 146);
+}
+
+
+body .img{width:700px;
+          height: 500px;
+          border-radius: 30px;
+          margin-top:20px;
+          
+          box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.5);
+          transition:0.5s
+          
+         }
+body .img:hover{width:730px;
+                height:650px;
+                
+                }
+
+header{width:100%;
+    display:flex}
+       
+       
+.text_im{margin-left: 50px;
+          font-size:30px}
+
+          
+            
+.me{display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:50px}      
+.web{display:flex;
+  flex-direction:column}
+.about-me{margin-right: 100px;}
+
+.quote{border:2px solid;
+       width:700px;
+       padding:16px;
+       border-radius:10px}
+
+
+button{padding:10px;
+      margin-top:100px;
+      width:100px;
+      
+      border-radius: 7px ;
+      transition:0.5s;
+      
+      }
+a button{
+         
+         text-decoration: none;
+         font-size:20px;
+         font-weight: 700;
+         color:rgb(0, 0, 0);
+     
+         
+         
+         
+         
+        }
+button:hover{background:rgb(119, 105, 43);
+             color:azure;
+             transform:scale(1.2);
+             
+            }
+
+
+             
+
+
+.css{float:right;
+     border-radius:30px;}
+
+.webs{margin-top:50px
+      }
+
+.head{position:fixed;
+      top:0;
+      left:0;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      background:rgb(201, 181, 146);
+      width:100%;
+      padding:22px;
+
+    }
+.logo{font-family:sans-serif;
+      font-size:25px;
+      font-weight: 900;
+      margin-left:60px;
+      text-decoration: none;
+      color:rgb(50, 49, 36);
+      padding:0}
+.navbar{margin-right:100px;
+        display:flex;
+        gap:30px
+        
+       
+        }
+.navbar a{text-decoration: none;
+          color:rgb(50, 49, 36);
+          font-size:20px;
+          font-weight: 900;
+          transition:0.5s}
+
+.navbar a:hover{ color:rgb(184, 82, 45);
+                 transform:scale(1.2)}
+cite a{color:rgb(201, 181, 146);
+       text-decoration: none;
+       }
+
